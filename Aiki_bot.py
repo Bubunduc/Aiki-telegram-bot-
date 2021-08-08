@@ -4,7 +4,7 @@ from telebot.types import ReplyKeyboardMarkup
 from youtubesearchpython import Search
 import requests
 import time
-bot = telebot.TeleBot('1933230063:AAGUBfqzOK5rnMAm8PAPho6QtwaFgS7NfAQ')
+bot = telebot.TeleBot('Your token')
 @bot.message_handler(commands=['start'])
 def Startbot(message):# Name for function not important
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
