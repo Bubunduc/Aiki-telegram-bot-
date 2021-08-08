@@ -1,2 +1,4 @@
-pyTelegramBotAPI
-youtube-search-python
+pyTelegramBotAPI==3.8.2
+youtube-search-python == 1.4.6
+requests == 2.6.0
+time == 1.0.0
